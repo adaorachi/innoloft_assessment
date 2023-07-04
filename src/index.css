@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+:root {
+  --primary-color: white;
+}
+
+html {
+  color: #666;
+  font-family: "Fira Sans", system-ui, sans-serif !important;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.loader-wrapper svg path {
+ stroke: var(--primary-color) !important;
+}
+
+.loader-wrapper svg {
+  fill: var(--primary-color) !important
+}
+
+.iconShadow {
+  filter: drop-shadow(4px 4px 1px rgba(0, 0, 0, 0.3));
+}
+
+.iconShadow-alt {
+  filter: drop-shadow(-2px 2px 1px rgba(0, 0, 0, 0.3));
+}
+
+.public-DraftStyleDefault-block {
+  margin: 0 !important
+}
+
+
