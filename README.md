@@ -15,8 +15,7 @@ This is a Data Manager application built using [React](https://reactjs.org/) and
 
 - React
 - Redux
-- MaterialUI
-- Webpack
+- TailwindCSS
 
 <!-- LIVE PREVIEW -->
 
